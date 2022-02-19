@@ -25,7 +25,7 @@ public class ComplexTaskStrings {
         int index = 1;
         arr[0] = Character.toUpperCase(arr[0]);
 
-        while (index < arr.length) {
+        while (index < arr.length - 1) {
             if (arr[index] == ' ') {
                 arr[index + 1] = Character.toUpperCase(arr[index + 1]);
                 index++;
